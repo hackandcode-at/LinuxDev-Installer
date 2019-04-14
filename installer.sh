@@ -1,3 +1,4 @@
+#for developers
 apt -y install snap
 apt -y install nodejs
 apt -y install npm
@@ -11,14 +12,23 @@ apt -y install openjdk-11-jdk
 apt -y install apache2
 apt -y install php
 apt -y install mysql
-apt -y install git
 chmod +777 /var/www/html/
-snap install vscode
-snap install atom
+apt -y install git
+snap install vscode --classic
+snap install atom --classic
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
 apt update
 apt install virtualbox-6.0
+
+#for pen-testers
+apt -y install wireshark
+apt -y install nmap
+apt -y install hydra
+apt -y install aircrack-ng
+apt -y install ettercap-graphical
+snap install zaproxy --classic
+
 apt dist-upgrade
 apt update
 reboot
