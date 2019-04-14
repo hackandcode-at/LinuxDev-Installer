@@ -1,7 +1,5 @@
 # LinuxDev-Installer
 
-installation script for Linux Developers
-
 this script installs:
   + Git
   + Mono-mcs (C# compiler)
