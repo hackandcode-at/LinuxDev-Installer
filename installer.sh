@@ -19,7 +19,7 @@ snap install atom --classic
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
 apt update
-apt install virtualbox-6.0
+apt -y install virtualbox-6.0
 
 #for pen-testers
 apt -y install wireshark
