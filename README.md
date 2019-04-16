@@ -5,7 +5,7 @@ this script installs:
   + Mono-mcs (C# compiler)
   + Java
   + NodeJS + NPM
-  + Snap
+  + Snap (if you are not using Ubuntu)
   + PIP (Python2 and Python3)
   + Apache2
   + and much more
