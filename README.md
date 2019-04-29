@@ -14,4 +14,6 @@ this script installs:
 ```bash
 sudo chmod +x install.sh
 ./installer.sh
+
+#now just wait
 ```
