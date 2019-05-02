@@ -6,7 +6,7 @@ apt -y install python3
 apt -y install python
 apt -y install python-pip
 apt -y install python3-pip
-apt -y install mono-mcs
+apt -y install mono-complete
 apt -y install openjdk-11-jre
 apt -y install openjdk-11-jdk
 apt -y install apache2
