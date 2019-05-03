@@ -2,7 +2,7 @@
 
 this script installs:
   + Git
-  + Mono-mcs (C# compiler)
+  + Mono (.NET Framework)
   + Java
   + NodeJS + NPM
   + Snap (if you are not using Ubuntu)
