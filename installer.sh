@@ -15,7 +15,7 @@ apt -y install mysql
 chmod +777 /var/www/html/
 apt -y install git
 apt -y install docker.io
-snap install vscode --classic
+snap install code --classic
 snap install atom --classic
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
