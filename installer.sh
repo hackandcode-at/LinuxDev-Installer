@@ -31,6 +31,7 @@ apt -y install nmap
 apt -y install hydra
 apt -y install aircrack-ng
 apt -y install ettercap-graphical
+apt -y install netdiscover
 snap install zaproxy --classic
 
 apt dist-upgrade
