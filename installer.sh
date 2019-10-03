@@ -5,6 +5,7 @@ apt -y install npm
 npm install -g sass
 npm install -g typescript
 apt -y install ruby
+apt -y install ruby-sass
 apt -y install python3
 apt -y install python
 apt -y install python-pip
