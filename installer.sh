@@ -1,5 +1,5 @@
 #for developers
-apt -y install snap
+apt -y install snapd
 apt -y install nodejs
 apt -y install npm
 npm install -g sass
