@@ -17,7 +17,7 @@ apt -y install openjdk-11-jdk
 apt -y install apache2
 apt -y install php
 apt -y install mysql
-apt -y install mariadb
+apt -y install mariadb-common
 apt -y install mongodb
 chmod +777 /var/www/html/
 apt -y install git
