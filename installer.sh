@@ -1,4 +1,5 @@
 #for developers
+apt -y install curl
 apt -y install snapd
 apt -y install nodejs
 apt -y install npm
