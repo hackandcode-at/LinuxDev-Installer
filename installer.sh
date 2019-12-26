@@ -32,6 +32,8 @@ apt -y install aircrack-ng
 apt -y install ettercap-graphical
 apt -y install netdiscover
 snap install zaproxy --classic
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+
 
 apt dist-upgrade
 apt update
