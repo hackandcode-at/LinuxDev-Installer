@@ -20,7 +20,7 @@ apt -y install mysql
 apt -y install mariadb-server
 apt -y install mariadb-client
 apt -y install mongodb
-chmod +777 /var/www/html/
+chmod +755 /var/www/html/
 apt -y install git
 apt -y install putty
 apt -y install docker.io
