@@ -12,16 +12,17 @@ apt -y install python
 apt -y install python-pip
 apt -y install python3-pip
 apt -y install python-tk
+apt -y install python3-tk
 apt -y install mono-complete
 apt -y install openjdk-11-jre
 apt -y install openjdk-11-jdk
 apt -y install apache2
+chmod +755 /var/www/html/
 apt -y install php
-apt -y install mysql
+apt -y install mysql-common
 apt -y install mariadb-server
 apt -y install mariadb-client
 apt -y install mongodb
-chmod +755 /var/www/html/
 apt -y install git
 apt -y install putty
 apt -y install docker.io
@@ -40,6 +41,11 @@ apt -y install crunch
 snap install zaproxy --classic
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 git clone https://github.com/trustedsec/social-engineer-toolkit
+
+#some other tools
+apt -y install screenfetch
+apt -y install hamachi
+apt -y install sl
 
 apt dist-upgrade
 apt update
