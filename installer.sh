@@ -44,8 +44,10 @@ git clone https://github.com/trustedsec/social-engineer-toolkit
 
 #some other tools
 apt -y install screenfetch
-apt -y install hamachi
 apt -y install sl
+snap install slack --classic
+snap install discord --classic
+snap install spotify --classic
 
 apt dist-upgrade
 apt update
