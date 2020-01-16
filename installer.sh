@@ -1,7 +1,7 @@
 #for developers
 apt -y install curl
-apt -y install snapd
 apt -y install nodejs
+apt -y install snapd
 apt -y install npm
 npm install -g sass
 npm install -g typescript
@@ -19,24 +19,22 @@ apt -y install openjdk-11-jdk
 apt -y install apache2
 chmod +755 /var/www/html/
 apt -y install php
-
-apt -y install mysql-common
-apt -y install mysql-server
-apt -y install mysql-client
-apt -y install mysql-workbench
-
-apt -y install mariadb-server
-apt -y install mariadb-client
-
-apt -y install mongodb
-apt -ym install mongodb-clients
-
 apt -y install git
 apt -y install putty
 apt -y install docker.io
 snap install code --classic
 snap install atom --classic
 snap install kotlin --classic
+
+#databases
+apt -y install mysql-common
+apt -y install mysql-server
+apt -y install mysql-client
+apt -y install mysql-workbench
+apt -y install mariadb-server
+apt -y install mariadb-client
+apt -y install mongodb
+apt -ym install mongodb-clients
 
 #for pen-testers
 apt -y install wireshark
