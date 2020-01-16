@@ -34,7 +34,8 @@ apt -y install mysql-workbench
 apt -y install mariadb-server
 apt -y install mariadb-client
 apt -y install mongodb
-apt -ym install mongodb-clients
+apt -y install mongodb-server
+apt -y install mongodb-clients
 
 #for pen-testers
 apt -y install wireshark
