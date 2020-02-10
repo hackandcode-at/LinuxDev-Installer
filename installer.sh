@@ -52,6 +52,7 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 git clone https://github.com/trustedsec/social-engineer-toolkit
 
 #some other tools
+apt -y install dnsutils
 apt -y install screenfetch
 apt -y install sl
 snap install slack --classic
