@@ -39,6 +39,7 @@ apt -y install mongodb-clients
 
 #for pen-testers
 apt -y install wireshark
+apt -y install yersinia
 apt -y install nmap
 apt -y install hydra
 apt -y install aircrack-ng
