@@ -21,6 +21,7 @@ chmod +755 /var/www/html/
 apt -y install php
 apt -y install git
 apt -y install putty
+apt -y install cmdtest
 apt -y install docker.io
 snap install code --classic
 snap install atom --classic
