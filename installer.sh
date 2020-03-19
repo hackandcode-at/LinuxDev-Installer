@@ -2,7 +2,7 @@
 apt -y install curl
 apt -y install nodejs
 apt -y install snapd
-apt -y install npm
+curl -L https://www.npmjs.com/install.sh | sh
 npm install -g sass
 npm install -g typescript
 apt -y install ruby
