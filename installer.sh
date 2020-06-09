@@ -23,6 +23,7 @@ apt -y install git
 apt -y install putty
 apt -y install cmdtest
 apt -y install docker.io
+snap install gitkraken --classic
 snap install code --classic
 snap install atom --classic
 snap install kotlin --classic
