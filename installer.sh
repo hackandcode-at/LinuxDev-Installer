@@ -27,6 +27,7 @@ snap install gitkraken --classic
 snap install code --classic
 snap install atom --classic
 snap install kotlin --classic
+apt -y install virtualbox
 
 #databases
 apt -y install mysql-common
