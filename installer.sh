@@ -180,7 +180,7 @@ elif [ $OS="Arch" ] | [ $OS="Manjaro" ]; then
     pacman -S cewl
     pacman -S medusa
 else
-    echo $OS+" is not supported by this script."
+    echo $OS" is not supported by this script."
     echo "add your operating system to the file and create a pull request"
 fi
 chmod +755 /var/www/html/
