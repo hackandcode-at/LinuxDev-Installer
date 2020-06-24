@@ -1,5 +1,4 @@
 OS=$(lsb_release -i | cut -f 2-)
-yon="yes no"
 if [ $OS = "openSUSE" ]; then
     echo "OS detected: " $OS
     select item in $yon;
