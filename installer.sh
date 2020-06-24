@@ -1,7 +1,6 @@
 OS=$(lsb_release -i | cut -f 2-)
 if [ $OS = "openSUSE" ]; then
     echo "OS detected: " $OS
-    select item in $yon;
     zypper in dnsutils
     zypper in screenfetch
     zypper in sl
