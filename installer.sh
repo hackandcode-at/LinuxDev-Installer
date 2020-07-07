@@ -134,7 +134,7 @@ elif [ $OS="Fedora" ]; then
     dnf install crunch
     dnf install cewl
     dnf install medusa
-elif [ $OS="Arch" ] | [ $OS="Manjaro" ]; then
+elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     echo "OS detected: " $OS
     pacman -S dnsutils
     pacman -S screenfetch
