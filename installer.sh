@@ -1,5 +1,7 @@
 OS=$(lsb_release -i | cut -f 2-)
+install=false
 if [ $OS = "openSUSE" ]; then
+    $install=true
     echo "OS detected: " $OS
     zypper in dnsutils
     zypper in screenfetch
@@ -45,6 +47,7 @@ if [ $OS = "openSUSE" ]; then
     zypper in cewl
     zypper in medusa
 elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
+    $install=true
     echo "OS detected: " $OS
     apt -y install dnsutils
     apt -y install screenfetch
@@ -90,6 +93,7 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt dist-upgrade
     apt update
 elif [ $OS="Fedora" ]; then
+    $install=true
     echo "OS detected: " $OS
     dnf install dnsutils
     dnf install screenfetch
@@ -135,6 +139,7 @@ elif [ $OS="Fedora" ]; then
     dnf install cewl
     dnf install medusa
 elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
+    $install=true
     echo "OS detected: " $OS
     pacman -S dnsutils
     pacman -S screenfetch
@@ -183,16 +188,33 @@ else
     echo $OS" is not supported by this script."
     echo "add your operating system to the file and create a pull request"
 fi
-chmod +755 /var/www/html/
-snap install gitkraken --classic
-snap install code --classic
-snap install atom --classic
-snap install kotlin --classic
-snap install slack --classic
-snap install zaproxy --classic
-curl -L https://www.npmjs.com/install.sh | sh
-npm install -g sass
-npm install -g typescript
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
-git clone https://github.com/trustedsec/social-engineer-toolkit
-reboot
+if [ $install=true ]; then
+    chmod +755 /var/www/html/
+    snap install gitkraken --classic
+    snap install code --classic
+    code --install-extension alefragnani.project-manager
+    code --install-extension christian-kohler.path-intellisense
+    code --install-extension codezombiech.gitignore
+    code --install-extension donjayamanne.git-extension-pack
+    code --install-extension donjayamanne.githistory
+    code --install-extension eamodio.gitlens
+    code --install-extension GitLab.gitlab-workflow
+    code --install-extension mongodb.mongodb-vscode
+    code --install-extension ms-azuretools.vscode-docker
+    code --install-extension ms-vscode-remote.remote-containers
+    code --install-extension mtxr.sqltools
+    code --install-extension PKief.material-icon-theme
+    code --install-extension platformio.platformio-ide
+    code --install-extension tombonnike.vscode-status-bar-format-toggle
+    code --install-extension vscodevim.vim
+    code --install-extension ziyasal.vscode-open-in-github
+    snap install kotlin --classic
+    snap install slack --classic
+    snap install zaproxy --classic
+    curl -L https://www.npmjs.com/install.sh | sh
+    npm install -g sass
+    npm install -g typescript
+    curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+    git clone https://github.com/trustedsec/social-engineer-toolkit
+    reboot
+fi
