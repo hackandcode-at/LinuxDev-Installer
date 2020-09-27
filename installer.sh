@@ -212,6 +212,7 @@ if [ $install=true ]; then
     code --install-extension tombonnike.vscode-status-bar-format-toggle
     code --install-extension vscodevim.vim
     code --install-extension ziyasal.vscode-open-in-github
+    code --install-extension ms-vscode-remote.remote-ssh
     snap install kotlin --classic
     snap install slack --classic
     snap install zaproxy --classic
