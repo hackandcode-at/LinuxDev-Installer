@@ -46,6 +46,7 @@ if [ $OS = "openSUSE" ]; then
     zypper in crunch
     zypper in cewl
     zypper in medusa
+    zypper in neovim
 elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     $install=true
     echo "OS detected: " $OS
@@ -90,6 +91,7 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt -y install crunch
     apt -y install cewl
     apt -y install medusa
+    apt -y install neovim
     apt dist-upgrade
     apt update
 elif [ $OS="Fedora" ]; then
@@ -138,6 +140,7 @@ elif [ $OS="Fedora" ]; then
     dnf install crunch
     dnf install cewl
     dnf install medusa
+    dnf install neovim
 elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     $install=true
     echo "OS detected: " $OS
@@ -184,6 +187,7 @@ elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     pacman -S crunch
     pacman -S cewl
     pacman -S medusa
+    pacman -S neovim
 else
     echo $OS" is not supported by this script."
     echo "add your operating system to the file and create a pull request"
