@@ -92,6 +92,9 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt -y install cewl
     apt -y install medusa
     apt -y install neovim
+    sudo add-apt-repository universe
+    apt update
+    apt -y install exfat-fuse exfat-utils
     apt dist-upgrade
     apt update
 elif [ $OS="Fedora" ]; then
