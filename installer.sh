@@ -205,17 +205,22 @@ if [ $install=true ]; then
     code --install-extension donjayamanne.git-extension-pack
     code --install-extension donjayamanne.githistory
     code --install-extension eamodio.gitlens
+    code --install-extension Equinusocio.vsc-material-theme
     code --install-extension GitLab.gitlab-workflow
     code --install-extension mongodb.mongodb-vscode
     code --install-extension ms-azuretools.vscode-docker
     code --install-extension ms-vscode-remote.remote-containers
+    code --install-extension ms-vscode-remote.remote-ssh
+    code --install-extension ms-vscode-remote.remote-ssh-edit
+    code --install-extension ms-vscode.cpptools
     code --install-extension mtxr.sqltools
     code --install-extension PKief.material-icon-theme
     code --install-extension platformio.platformio-ide
     code --install-extension tombonnike.vscode-status-bar-format-toggle
     code --install-extension vscodevim.vim
+    code --install-extension Wscats.eno
+    code --install-extension zhuangtongfa.material-theme
     code --install-extension ziyasal.vscode-open-in-github
-    code --install-extension ms-vscode-remote.remote-ssh
     snap install kotlin --classic
     snap install slack --classic
     snap install zaproxy --classic
