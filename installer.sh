@@ -225,6 +225,7 @@ if [ $install=true ]; then
     snap install kotlin --classic
     snap install slack --classic
     snap install zaproxy --classic
+    snap install go --classic
     curl -L https://www.npmjs.com/install.sh | sh
     npm install -g sass
     npm install -g typescript
