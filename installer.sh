@@ -221,6 +221,7 @@ if [ $install=true ]; then
     code --install-extension Wscats.eno
     code --install-extension zhuangtongfa.material-theme
     code --install-extension ziyasal.vscode-open-in-github
+    code --install-extension formulahendry.code-runner
     snap install kotlin --classic
     snap install slack --classic
     snap install zaproxy --classic
