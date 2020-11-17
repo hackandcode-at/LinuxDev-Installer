@@ -9,6 +9,7 @@ code --install-extension Equinusocio.vsc-material-theme
 code --install-extension GitLab.gitlab-workflow
 code --install-extension mongodb.mongodb-vscode
 code --install-extension ms-azuretools.vscode-docker
+code --install.extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension ms-vscode-remote.remote-ssh-edit
