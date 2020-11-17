@@ -22,3 +22,6 @@ code --install-extension Wscats.eno
 code --install-extension zhuangtongfa.material-theme
 code --install-extension ziyasal.vscode-open-in-github
 code --install-extension formulahendry.code-runner
+code --install-extension ms-vsliveshare.vsliveshare
+#this one is just for fun, delete if you want :)
+code --install-extension bar9.stories
