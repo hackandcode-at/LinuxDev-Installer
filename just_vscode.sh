@@ -15,6 +15,10 @@ code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cpptools
 code --install-extension mtxr.sqltools
+code --install-extension mtxr.sqltools-driver-mssql
+code --install-extension mtxr.sqltools-driver-mysql
+code --install-extension mtxr.sqltools-driver-pg
+code --install-extension mtxr.sqltools-driver-sqlite
 code --install-extension PKief.material-icon-theme
 code --install-extension platformio.platformio-ide
 code --install-extension tombonnike.vscode-status-bar-format-toggle
