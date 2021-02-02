@@ -31,6 +31,7 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension 2gua.rainbow-brackets
 code --install-extension 4tron.stack-overflow-view
 code --install-extension techer.open-in-browser
+code --install-extension cweijan.vscode-ssh
 #this one is just for fun, delete if you want :)
 code --install-extension bar9.stories
 code --install-extension benawad.vsinder
