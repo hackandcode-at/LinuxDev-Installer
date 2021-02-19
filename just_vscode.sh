@@ -33,6 +33,7 @@ code --install-extension 4tron.stack-overflow-view
 code --install-extension techer.open-in-browser
 code --install-extension cweijan.vscode-ssh
 code --install-extension mkloubert.vscode-kanban
+code --install-extension ritwickdey.liveserver
 #this one is just for fun, delete if you want :)
 code --install-extension bar9.stories
 code --install-extension benawad.vsinder
