@@ -38,3 +38,4 @@ code --install-extension ritwickdey.liveserver
 code --install-extension bar9.stories
 code --install-extension benawad.vsinder
 code --install-extension mkloubert.vs-media-player
+code --install-extension ajshort.latex-preview
