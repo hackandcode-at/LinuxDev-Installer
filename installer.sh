@@ -47,6 +47,7 @@ if [ $OS = "openSUSE" ]; then
     zypper in cewl
     zypper in medusa
     zypper in neovim
+    zypper in net-tools
 elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     $install=true
     echo "OS detected: " $OS
@@ -92,6 +93,7 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt -y install cewl
     apt -y install medusa
     apt -y install neovim
+    apt -y install net-tools
     sudo add-apt-repository universe
     apt update
     apt -y install exfat-fuse exfat-utils
@@ -144,6 +146,7 @@ elif [ $OS="Fedora" ]; then
     dnf install cewl
     dnf install medusa
     dnf install neovim
+    dnf install net-tools
 elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     $install=true
     echo "OS detected: " $OS
@@ -191,6 +194,7 @@ elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     pacman -S cewl
     pacman -S medusa
     pacman -S neovim
+    pacman -S net-tools
 else
     echo $OS" is not supported by this script."
     echo "add your operating system to the file and create a pull request"
