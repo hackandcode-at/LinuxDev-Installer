@@ -204,7 +204,7 @@ if [ $install=true ]; then
     snap install gitkraken --classic
     snap install code --classic
     chmod +x just_vscode.sh
-    ./just_vscode.sh
+    sh ./just_vscode.sh
     snap install kotlin --classic
     snap install slack --classic
     snap install zaproxy --classic
