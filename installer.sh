@@ -18,8 +18,9 @@ if [ $OS = "openSUSE" ]; then
     zypper in python-tk
     zypper in python3-tk
     zypper in mono-complete
-    zypper in openjdk-11-jre
-    zypper in openjdk-11-jdk
+    zypper in openjdk-16-jre
+    zypper in openjdk-16-jdk
+    zypper in maven
     zypper in apache2
     zypper in php
     zypper in git
@@ -66,8 +67,9 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt -y install python-tk
     apt -y install python3-tk
     apt -y install mono-complete
-    apt -y install openjdk-11-jre
-    apt -y install openjdk-11-jdk
+    apt -y install openjdk-16-jre
+    apt -y install openjdk-16-jdk
+    apt -y install maven
     apt -y install apache2
     apt -y install php
     apt -y install git
@@ -117,8 +119,9 @@ elif [ $OS="Fedora" ]; then
     dnf install python-tk
     dnf install python3-tk
     dnf install mono-complete
-    dnf install openjdk-11-jre
-    dnf install openjdk-11-jdk
+    dnf install openjdk-16-jre
+    dnf install openjdk-16-jdk
+    dnf install maven
     dnf install apache2
     dnf install php
     dnf install git
@@ -165,8 +168,9 @@ elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     pacman -Sy python-tk
     pacman -Sy python3-tk
     pacman -Sy mono-complete
-    pacman -Sy openjdk-11-jre
-    pacman -Sy openjdk-11-jdk
+    pacman -Sy openjdk-16-jre
+    pacman -Sy openjdk-16-jdk
+    pacman -Sy maven
     pacman -Sy apache2
     pacman -Sy php
     pacman -Sy git
