@@ -18,6 +18,7 @@ if [ $OS = "openSUSE" ]; then
     zypper in python-tk
     zypper in python3-tk
     zypper in mono-complete
+    zypper in nuget
     zypper in openjdk-16-jre
     zypper in openjdk-16-jdk
     zypper in maven
@@ -67,6 +68,7 @@ elif [ $OS="Ubuntu" ] | [ $OS="Debian" ] | [ $OS="Mint" ]; then
     apt -y install python-tk
     apt -y install python3-tk
     apt -y install mono-complete
+    apt -y install nuget
     apt -y install openjdk-16-jre
     apt -y install openjdk-16-jdk
     apt -y install maven
@@ -119,6 +121,7 @@ elif [ $OS="Fedora" ]; then
     dnf install python-tk
     dnf install python3-tk
     dnf install mono-complete
+    dnf install nuget
     dnf install openjdk-16-jre
     dnf install openjdk-16-jdk
     dnf install maven
@@ -168,6 +171,7 @@ elif [ $OS="Arch" ] | [ $OS="ManjaroLinux" ]; then
     pacman -Sy python-tk
     pacman -Sy python3-tk
     pacman -Sy mono-complete
+    pacman -Sy nuget
     pacman -Sy openjdk-16-jre
     pacman -Sy openjdk-16-jdk
     pacman -Sy maven
