@@ -36,6 +36,7 @@ code --install-extension mkloubert.vscode-kanban
 code --install-extension ritwickdey.liveserver
 code --install-extension github.vscode-pull-request-github
 code --install-extension usernamehw.errorlens
+code --install-extension rohinivsenthil.postcode
 #this one is just for fun, delete if you want :)
 code --install-extension bar9.stories
 code --install-extension benawad.vsinder
