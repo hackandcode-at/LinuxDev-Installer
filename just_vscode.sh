@@ -19,6 +19,13 @@ code --install-extension mtxr.sqltools-driver-mssql
 code --install-extension mtxr.sqltools-driver-mysql
 code --install-extension mtxr.sqltools-driver-pg
 code --install-extension mtxr.sqltools-driver-sqlite
+code --install-extension jordanhury.sqltools-cassandra
+code --install-extension saposs.sap-hana-driver-for-sqltools
+code --install-extension koszti.snowflake-driver-for-sqltools
+code --install-extension ultram4rine.sqltools-clickhouse-driver
+code --install-extension kj.sqltools-driver-redshift
+code --install-extension google-cloud-spanner-ecosystem.google-cloud-spanner-driver
+code --install-extension brunoventura.sqltools-athena-driver
 code --install-extension PKief.material-icon-theme
 code --install-extension platformio.platformio-ide
 code --install-extension tombonnike.vscode-status-bar-format-toggle
