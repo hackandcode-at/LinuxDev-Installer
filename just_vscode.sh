@@ -45,6 +45,7 @@ code --install-extension github.vscode-pull-request-github
 code --install-extension usernamehw.errorlens
 code --install-extension rohinivsenthil.postcode
 code --install-extension jasonnutter.search-node-modules
+code --install-extension jmrog.vscode-nuget-package-manager
 #this one is just for fun, delete if you want :)
 code --install-extension bar9.stories
 code --install-extension benawad.vsinder
